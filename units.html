@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .box{ */
+            /* height: 50vh;
+            width:50vw;
+            background-color: red;
+
+        } */
+
+        .parent{
+            border: 2px solid red;
+            height:200px ;
+            width: 200px ;
+            font-size: 2rem;
+        }
+    
+
+        .child{
+            border: 2px solid black ;
+            height: 50%;
+            width: 100%;
+           font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- 2types of units  -->
+    <!-- 1) Absolute units - px,cm,mm -->
+    <!-- 2) Relative Units - %,vh,vw,em,rem  -->
+
+    <!-- % - parent 
+         vh,vw - screensize 
+         em - parent 
+        rem - root element  -->
+
+<!-- 
+    <div class="box">
+
+    </div> -->
+
+    <div class="parent">
+        Parent 
+        <div class="child">
+            child 
+        </div>
+    </div>
+
+</body>
+</html>
